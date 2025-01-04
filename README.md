@@ -32,3 +32,5 @@
 ## Display Data from Database
     - take data into variable and compact it,
     - send to view and make change in view file.# laravel_basic_restaurant
+
+## Add Food to Cart

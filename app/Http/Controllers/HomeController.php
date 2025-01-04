@@ -26,4 +26,8 @@ class HomeController extends Controller
         $data = Food::all();
         return view('home.index',compact('data'));
     }
+
+    public function add_cart(Request $request, $id){
+        
+    }
 }
