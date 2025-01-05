@@ -28,3 +28,5 @@ Route::post('/upload_food',[AdminController::class,'upload_food']);
 Route::get('/view_food', [AdminController::class,'view_food']);
 
 Route::post('/add_cart/{id}',[HomeController::class,'add_cart']);
+
+Route::get('/my_cart', [HomeController::class,'my_cart']);

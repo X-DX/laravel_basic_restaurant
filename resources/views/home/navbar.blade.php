@@ -34,6 +34,12 @@
             @if(Route::has('login'))
 
                 @auth
+
+                    <li>
+                        <a href="{{ url('my_cart') }}" class="nav-link">Cart</a>
+                    </li>
+
+
                     <form method="POST" action="{{ route('logout') }}">
                     @csrf
                         <input class="btn btn-primary ml-xl-4" type="submit" value="logout">

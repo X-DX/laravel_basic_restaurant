@@ -52,4 +52,8 @@ class HomeController extends Controller
             return redirect('login');
         }
     }
+
+    public function my_cart(){
+        return view ('home.my_cart');
+    }
 }
