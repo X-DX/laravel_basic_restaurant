@@ -25,11 +25,11 @@
                             <p class="text-white">{{$data->detail}}</p>
                         </div>
         
-                        <form action="{{url('add_cart',$data->id)}}" method="post">
+                        <form action="{{ url('add_cart',$data->id) }}" method="post" enctype="multipart/form-data">
                         @csrf
                             <div class="row col-md-12">
                                 <div class="col-md-6">
-                                    <input type="number" class=" m-4 form-control form-control-lg custom-form-control" placeholder="Quantity" max="20" min="1" value="1" required>
+                                    <input type="number" class=" m-4 form-control form-control-lg custom-form-control" name="quantity" placeholder="Quantity" max="20" min="1" value="1" required>
                                 </div>
                                 <div class="col-md-6">
                                     <input type="submit" class="m-4 form-control form-control-lg custom-form-control btn btn-primary" value="Add to Cart">

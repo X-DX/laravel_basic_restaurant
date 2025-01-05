@@ -34,3 +34,6 @@
     - send to view and make change in view file.# laravel_basic_restaurant
 
 ## Add Food to Cart
+    - make changes in view add cart button
+    - make logics in controller.
+
